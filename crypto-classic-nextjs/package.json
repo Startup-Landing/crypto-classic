@@ -1,0 +1,38 @@
+{
+  "name": "@landing/027-next",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "serve": "next start",
+    "export": "next export",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@fontsource/archivo": "^4.2.2",
+    "@fontsource/dm-sans": "^4.2.2",
+    "img-loader": "^3.0.2",
+    "next": "10.1.3",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.2",
+    "rc-drawer": "^4.3.1",
+    "react": "^17.0.1",
+    "react-countdown": "^2.3.1",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
+    "react-icons": "^4.2.0",
+    "react-modal-video": "^1.2.6",
+    "react-scroll": "^1.8.2",
+    "react-stickynode": "^3.0.5",
+    "react-waypoint": "^9.0.3",
+    "theme-ui": "^0.6.1"
+  },
+  "devDependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^9.0.0",
+    "next-sitemap": "^1.1.6"
+  }
+}
